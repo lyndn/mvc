@@ -13,10 +13,14 @@
 class BaseController
 {
     public $_koiterm;
+    public $_twig;
     public function __construct()
     {
         global $koiterm;
+        global $twig;
         $this->_koiterm = &$koiterm;
+        $this->_twig = &$twig;
+
     }
 
 }

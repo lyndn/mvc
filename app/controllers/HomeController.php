@@ -15,6 +15,7 @@ class HomeController extends BaseController
     public function home()
     {
         $a = C::t('orm')->fetch_all();
-        echo "<h1>控制器和Model成功！".var_dump($a)."</h1>";
+        //echo "<h1>控制器和Model成功！".var_dump($a)."</h1>";
+        echo $this->_twig->render('default/index.html', array("a"=>var_dump($a)));
     }
 }
