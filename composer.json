@@ -1,0 +1,14 @@
+{
+    "require": {
+        "koiterm/koiterm": "dev-master",
+        "noahbuscher/macaw": "dev-master",
+        "illuminate/database": "5.4.13",
+        "twig/twig": "1.29.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models"
+        ]
+    }
+}
