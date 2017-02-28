@@ -21,6 +21,10 @@ class BaseController
         $this->_koiterm = &$koiterm;
         $this->_twig = &$twig;
 
+        //IN_MOBILE
+        if($this->_koiterm->var['mobile']) {
+            $this->_koiterm->var['cache']['style_default']['tpldir'] = $this->_koiterm->var['mobiletpl'][2];
+        }
     }
 
 }

@@ -12,7 +12,7 @@
 return [
     'driver'    => 'mysql',
     'host'      => 'localhost',
-    'database'  => 'ycBlog',
+    'database'  => 'yc_Blog',
     'username'  => 'root',
     'password'  => 'program',
     'charset'   => 'utf8',
