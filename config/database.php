@@ -14,7 +14,7 @@ return [
     'host'      => 'localhost',
     'database'  => 'yc_Blog',
     'username'  => 'root',
-    'password'  => 'program',
+    'password'  => 'dzwang**',
     'charset'   => 'utf8',
     'collation' => 'utf8_general_ci',
     'prefix'    => 'yc'
